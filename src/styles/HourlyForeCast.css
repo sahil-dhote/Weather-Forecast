@@ -1,0 +1,50 @@
+*,::after,::before{
+    box-sizing: border-box;
+}
+
+.container{
+    display: flex;
+    flex-direction: row;
+}
+
+
+#hoursinner 
+{
+    line-height: 0px;
+}
+
+
+.container div
+{
+    margin: 20px 10px;
+}
+
+.hourly{
+    font-family: monospace;
+    margin-left: 5%;
+    margin-right: 5%;
+    overflow-x: scroll;
+    height: 230px;    
+}
+
+.hourly::-webkit-scrollbar {
+    width: 1em;
+  }
+   
+  .hourly::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+  }
+   
+  .hourly::-webkit-scrollbar-thumb {
+    background-color: mediumaquamarine;
+    outline: 1px solid black;
+  }
+
+#title{
+    font-size: 25px;
+    margin-top: 10px;
+    display: flex;
+    align-items: flex-start;
+    margin-left: 80px;
+    font-weight: bold;
+}

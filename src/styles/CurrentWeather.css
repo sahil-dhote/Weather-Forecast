@@ -1,0 +1,123 @@
+
+#cityname
+{
+    font-size: 25px;
+    margin-top: 1px;
+    display: flex;
+    align-items: flex-start;
+    margin-left: 15px;
+} 
+
+
+
+#size{
+    font-size: 70px;
+}
+
+.hours{
+    display: flex;
+    align-items: flex-start;
+    margin-left: 100px;
+    margin-top: 0px;
+    font-family: bold;
+}
+
+#now{
+    font-family: bold;
+    margin-top: 35px;
+    font-size: 25px;
+    margin-left:5px;
+
+
+}
+
+
+.Container
+{
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom: 2%;
+}
+
+.currentWeatherTemperature .h3
+{
+    
+    top: 0px;
+    
+
+}
+
+.upperitem{
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+
+
+
+.extraitem{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+
+
+.humidity{
+    margin-top: 0px;
+    font-size: 15px;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: row;
+}
+
+.wind{
+    margin-top: 0px;
+    font-size: 15px;
+    display: flex;
+    justify-content: flex-start;
+    
+}
+
+.sunrisetime{
+    margin-top: 0px;
+    font-size: 15px;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: row;
+}
+
+.pressure{
+    margin-top: 0px;
+    font-size: 15px;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: row;
+}
+
+
+#sunrisetext{
+    margin-left: 7px;
+}
+
+#windtext{
+    margin-left: 7px;
+
+}
+
+#humiditytext{
+    margin-left: 7px;
+
+}
+
+#pressuretext{
+    margin-left: 7px;
+
+}
+
+

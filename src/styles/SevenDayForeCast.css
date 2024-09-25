@@ -1,0 +1,39 @@
+.sevenday{
+   
+    display: flex;
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 10px;   
+    overflow-x: auto;
+}
+
+.sevendayforecast{
+    margin-top: 30px;
+    margin-bottom: 15px;
+    font-family: monospace;
+    margin-left: 5%;
+    margin-right: 5%;
+    
+    height: 200px;
+    
+    
+}
+
+#seventext
+{
+    display: flex;
+    align-items: flex-start;
+    margin-left: 80px;
+    font-weight: bold;
+}
+
+
+@media screen and (max-width: 690px) 
+{
+    #seventext{
+      
+    align-items: center;
+    font-weight: bold;
+    margin-left: 40px;
+    } 
+}
